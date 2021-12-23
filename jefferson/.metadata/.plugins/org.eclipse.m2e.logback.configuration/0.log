@@ -1,0 +1,97 @@
+2021-12-21 12:10:05,967 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-21 12:54:18,275 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring-data-persistencia-dados:spring-data-persistencia-dados:0.0.1-SNAPSHOT @ C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\pom.xml.
+2021-12-21 12:54:23,901 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:54:23,902 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 12:54:23,908 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:54:23,909 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 12:54:25,283 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:54:25,284 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 12:54:25,289 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:54:25,290 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 12:54:25,539 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar
+2021-12-21 12:54:25,556 [Worker-37: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-12-21 12:56:10,072 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring-data-persistencia-dados:spring-data-persistencia-dados:0.0.1-SNAPSHOT @ C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\pom.xml.
+2021-12-21 12:56:12,116 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:56:12,117 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 12:56:12,125 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:56:12,126 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 12:56:13,697 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:56:13,720 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 12:56:13,727 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:56:13,728 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 12:56:47,408 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:56:47,409 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 12:56:47,412 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:56:47,413 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 12:56:48,776 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:56:48,777 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 12:56:48,781 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:56:48,782 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\repo-jeff\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 12:58:44,609 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring-data-persistencia-dados:spring-data-persistencia-dados:0.0.1-SNAPSHOT @ C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\pom.xml.
+2021-12-21 12:58:46,167 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:58:46,168 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 12:58:46,174 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:58:46,174 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 12:58:47,461 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:58:47,462 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 12:58:47,466 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 12:58:47,467 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Documents\Arquivos Extraidos\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:01:22,880 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring-data-persistencia-dados:spring-data-persistencia-dados:0.0.1-SNAPSHOT @ C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master (1)\PersistenciaDeDados-Spring-Data-master\pom.xml.
+2021-12-21 13:01:24,442 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:01:24,443 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master (1)\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:01:24,448 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:01:24,448 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master (1)\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:01:24,981 [Worker-37: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring-data-persistencia-dados:spring-data-persistencia-dados:0.0.1-SNAPSHOT @ C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master (1)\PersistenciaDeDados-Spring-Data-master\pom.xml.
+2021-12-21 13:01:27,046 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:01:27,047 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master (1)\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:01:27,051 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:01:27,051 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master (1)\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:03:09,337 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring-data-persistencia-dados:spring-data-persistencia-dados:0.0.1-SNAPSHOT @ C:\git\PersistenciaDeDados-Spring-Data-master\pom.xml.
+2021-12-21 13:03:10,855 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:03:10,856 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:03:10,860 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:03:10,861 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:03:11,961 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:03:11,962 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:03:11,966 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:03:11,967 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:03:53,342 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:03:53,342 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:03:53,345 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:03:53,345 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:03:56,646 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:03:56,647 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:03:56,650 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:03:56,650 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:06:10,887 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring-data-persistencia-dados:spring-data-persistencia-dados:0.0.1-SNAPSHOT @ C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master\PersistenciaDeDados-Spring-Data-master\pom.xml.
+2021-12-21 13:06:12,248 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:06:12,249 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:06:12,253 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:06:12,253 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:06:14,058 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:06:14,059 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:06:14,062 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:06:14,062 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-21 13:07:33,582 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:07:33,583 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master\PersistenciaDeDados-Spring-Data-master\src\main\resources
+2021-12-21 13:07:33,586 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-21 13:07:33,586 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\drank\Downloads\PersistenciaDeDados-Spring-Data-master\PersistenciaDeDados-Spring-Data-master\src\test\resources
+2021-12-22 19:41:37,594 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
