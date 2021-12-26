@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+// Camada de domínio => camada de acesso a dados (Repository)
 // Cria a Tabela no banco de dados
 @Entity
 public class Categoria implements Serializable{

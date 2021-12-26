@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import br.com.cadastromania.domain.Categoria;
 
-// Camada de acesso a dados
+// Camada de acesso a dados => Camada de serviço
 @Repository
 public interface CategoriaRepository  extends JpaRepository<Categoria, Integer>{
 

@@ -1,7 +1,5 @@
 package br.com.cadastromania.resources;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.cadastromania.domain.Categoria;
 import br.com.cadastromania.services.CategoriaService;
 
+// Controladores REST => Aplicação cliente
 @RestController
 @RequestMapping(value = "/categorias")
 public class CategoriaResource {

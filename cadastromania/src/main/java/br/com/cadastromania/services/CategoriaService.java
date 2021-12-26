@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import br.com.cadastromania.domain.Categoria;
 import br.com.cadastromania.repositories.CategoriaRepository;
 
+// Camada de serviço => controladores Rest
 @Service 
 public class CategoriaService {
 
