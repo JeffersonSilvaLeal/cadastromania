@@ -28,7 +28,7 @@ public class CadastromaniaApplication implements CommandLineRunner {
 	// CommandLineRunner executa uma ação ao iniciar a aplicação usamos para inserir dados no banco de dados
 	@Override
 	public void run(String... args) throws Exception {
-		// Id gerado automaticamente, adicionamos apenas 'INFORMÀTICA' e 'ESCRITÒRIO'
+		                               // Id gerado automaticamente, adicionamos apenas 'INFORMÀTICA' e 'ESCRITÒRIO'
 		Categoria cat1 = new Categoria(null, "Informática");
 		Categoria cat2 = new Categoria(null, "Escritório");
 						
@@ -36,9 +36,11 @@ public class CadastromaniaApplication implements CommandLineRunner {
 		Produto p2 = new Produto(null, "Impressora", 800.00);
 		Produto p3 = new Produto(null, "Mouse", 80.00);
 		
+		// associação categoria com produto
 		cat1.getProdutos().addAll(Arrays.asList(p1, p2, p3));
 		cat2.getProdutos().addAll(Arrays.asList(p2));
 		
+		// associação protuco com cada categoria
 		p1.getCategorias().addAll(Arrays.asList(cat1));
 		p2.getCategorias().addAll(Arrays.asList(cat1, cat2));
 		p3.getCategorias().addAll(Arrays.asList(cat1));

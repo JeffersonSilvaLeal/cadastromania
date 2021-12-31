@@ -15,8 +15,10 @@ public class CategoriaService {
 	@Autowired
 	private CategoriaRepository repo;
 	
+	// Lança uma  exceção caso o id não exista
 	public Optional<Categoria> buscar(Integer id) {
 		Optional<Categoria> obj = repo.findById(id);
-		return obj ;
+		// se o obj não existe, lança uma exeção recebe uma função que instância uma exeção
+		return Optional.of(obj.orElseThrow(() -> new br.com.cadastromania.services.exceptions.ObjectNotFoundException("Objeto não encontrado! id: " + id + ", Tipo: " + Categoria.class.getName())));
 	}
 }

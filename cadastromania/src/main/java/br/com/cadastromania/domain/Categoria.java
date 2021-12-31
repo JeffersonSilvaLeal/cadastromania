@@ -12,6 +12,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 // Camada de domínio => camada de acesso a dados (Repository)
 // Cria a Tabela no banco de dados
 @Entity
@@ -24,6 +26,7 @@ public class Categoria implements Serializable{
 	private Integer id;
 	private String nome;
 	
+	@JsonManagedReference // referencia os Objetos a serem associados
 	// Associação com a classe'PRODUTO'
 	@ManyToMany(mappedBy = "categorias", cascade = CascadeType.ALL)
 	private List<Produto> produtos = new ArrayList<>(); 
